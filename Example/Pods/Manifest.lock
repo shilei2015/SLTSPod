@@ -1,0 +1,16 @@
+PODS:
+  - SLTSPod (0.1.0)
+
+DEPENDENCIES:
+  - SLTSPod (from `../`)
+
+EXTERNAL SOURCES:
+  SLTSPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SLTSPod: 47c2676a2aa9e39730afb58790ea838acd30cb25
+
+PODFILE CHECKSUM: d0b8cdddff984b2dd9bf50eb2e8ae8ad2769b4d1
+
+COCOAPODS: 1.9.3

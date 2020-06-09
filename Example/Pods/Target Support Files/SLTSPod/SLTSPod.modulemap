@@ -1,0 +1,6 @@
+framework module SLTSPod {
+  umbrella header "SLTSPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
