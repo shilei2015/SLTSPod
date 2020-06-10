@@ -1,7 +1,7 @@
 #
 #****************************（1）****************************
 #创建pod项目模版
-#pod lib create xxxx
+#pod lib create SLTSPod
 #根据提示选择
 #完成选择后会自动打开项目
 
@@ -32,20 +32,20 @@
 
 
 
-#       pod lib lint xxxx.podspec --allow-warnings
+#       pod lib lint SLTSPod.podspec --allow-warnings
 #       pod trunk me
-#              pod trunk register [Your-Email] '[Your-Name]' --description='[Your-Desc]' 
-#    若没有注册  pod trunk register 244235126@qq.com "shilei2015" --verbose
+#              pod trunk register [Your-Email] '[Your-Name]' --description='[Your-Desc]'
+#若没有注册  pod trunk register 244235126@qq.com "shilei2015" --verbose
 
 
 
-#       pod trunk push xxxx.podspec --allow-warnings
+#       pod trunk push SLTSPod.podspec --allow-warnings
 #       完成后 会有一段时间的审核   之后可以在  https://cocoapods.org/  中搜索到这个库
 
 
 
 #****************************（5）****************************
-#在podfile中使用    pod 'xxxx'
+#在podfile中使用    pod 'SLTSPod'
 
 
 
@@ -61,7 +61,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SLTSPod'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of SLTSPod.'
 
 # This description is used to generate tags and improve search results.
@@ -91,5 +91,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'AFNetworking'
+   
 end
