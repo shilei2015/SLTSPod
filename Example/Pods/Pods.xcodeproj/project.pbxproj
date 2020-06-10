@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07744D7A248FE0C8009F8FA7 /* SLTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 07744D78248FE0C8009F8FA7 /* SLTest.h */; };
-		07744D7B248FE0C8009F8FA7 /* SLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 07744D79248FE0C8009F8FA7 /* SLTest.m */; };
+		0736340224908E9A007BE053 /* SLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0736340024908E9A007BE053 /* SLTest.m */; };
+		0736340324908E9A007BE053 /* SLTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0736340124908E9A007BE053 /* SLTest.h */; };
 		0930BDF125C3800EA95706C017BCDB27 /* Pods-SLTSPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AC7A9D2C64564FE38A174D1B302ADC /* Pods-SLTSPod_Tests-dummy.m */; };
 		10345222BE1249E009ABE0B1ACA105A3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 753EF459D6F30EC6674ABEE8BFD2B1E9 /* ReplaceMe.m */; };
 		259B1E7EC3F0433A5387C83E7CE9C100 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -41,8 +41,8 @@
 /* Begin PBXFileReference section */
 		00DB2287F6566E932B4BD8DACDDED199 /* SLTSPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLTSPod-umbrella.h"; sourceTree = "<group>"; };
 		02E8072A8FB535D3E73EFBCAFFFDEF0E /* SLTSPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SLTSPod-dummy.m"; sourceTree = "<group>"; };
-		07744D78248FE0C8009F8FA7 /* SLTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLTest.h; sourceTree = "<group>"; };
-		07744D79248FE0C8009F8FA7 /* SLTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLTest.m; sourceTree = "<group>"; };
+		0736340024908E9A007BE053 /* SLTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLTest.m; path = SLTSPod/Classes/SLTest.m; sourceTree = "<group>"; };
+		0736340124908E9A007BE053 /* SLTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLTest.h; path = SLTSPod/Classes/SLTest.h; sourceTree = "<group>"; };
 		095B90E8C540C257B3787A75CF0638D8 /* Pods-SLTSPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLTSPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1BF5C0C7FB4720440C2628FF1C658E76 /* Pods-SLTSPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLTSPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2AB658CFACEBE19CDCCFE64A978ABA94 /* Pods-SLTSPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLTSPod_Example-dummy.m"; sourceTree = "<group>"; };
@@ -220,8 +220,8 @@
 			isa = PBXGroup;
 			children = (
 				753EF459D6F30EC6674ABEE8BFD2B1E9 /* ReplaceMe.m */,
-				07744D78248FE0C8009F8FA7 /* SLTest.h */,
-				07744D79248FE0C8009F8FA7 /* SLTest.m */,
+				0736340124908E9A007BE053 /* SLTest.h */,
+				0736340024908E9A007BE053 /* SLTest.m */,
 				0B4828280E512705F54CF86F6F9770BE /* Pod */,
 				EFF9061B5EE1B6779A2CCDE05E110473 /* Support Files */,
 			);
@@ -237,7 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE0C51B089791A9ECE3465CAD9210DE6 /* SLTSPod-umbrella.h in Headers */,
-				07744D7A248FE0C8009F8FA7 /* SLTest.h in Headers */,
+				0736340324908E9A007BE053 /* SLTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10345222BE1249E009ABE0B1ACA105A3 /* ReplaceMe.m in Sources */,
-				07744D7B248FE0C8009F8FA7 /* SLTest.m in Sources */,
+				0736340224908E9A007BE053 /* SLTest.m in Sources */,
 				9498F460BA5A0F7F265BC32432C614B2 /* SLTSPod-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
